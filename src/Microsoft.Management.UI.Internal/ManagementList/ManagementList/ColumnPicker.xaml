@@ -13,6 +13,7 @@
     ShowInTaskbar="False"
     KeyboardNavigation.IsTabStop="False"
     WindowStartupLocation="CenterOwner"
+    FlowDirection="{x:Static local:UICultureResources.FlowDirection}"
     AutomationProperties.AutomationId="ColumnPicker"
     >
     <Window.Resources>
