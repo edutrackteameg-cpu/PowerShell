@@ -29,10 +29,7 @@ jobs:
             runtimePrefix: win7
           - architecture: x86
             channel: preview
-            runtimePrefix: win7
-          - architecture: arm64
-            channel: preview
-            runtimePrefix: win
+
 
     steps:
       - name: Checkout
