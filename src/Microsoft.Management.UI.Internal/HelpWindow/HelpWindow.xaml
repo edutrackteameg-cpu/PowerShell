@@ -12,6 +12,7 @@
         Height="400"
         Width="600"
         Title="{Binding HelpTitle}"
+        FlowDirection="{x:Static this:UICultureResources.FlowDirection}"
         AutomationProperties.AutomationId="HelpWindow"
         FocusManager.FocusedElement="{Binding ElementName=HelpText}">
     <Grid x:Name="MainGrid">

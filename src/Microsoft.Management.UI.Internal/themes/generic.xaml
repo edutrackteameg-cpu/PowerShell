@@ -18,14 +18,11 @@
     <Geometry x:Key="NavPane_ListViewItem_RightArrow">M7.3391155,8.3084572 L7.3391708,16.109179 10.974259,12.431834 z</Geometry>
 
     <LinearGradientBrush x:Key="NormalBrush" EndPoint="0,1" StartPoint="0,0">
-        <GradientStop Color="#EEE" Offset="0.0"/>
-        <GradientStop Color="#CCC" Offset="1.0"/>
+        <GradientStop Color="#F8F9FA" Offset="0.0"/>
+        <GradientStop Color="#E9ECEF" Offset="1.0"/>
     </LinearGradientBrush>
 
-    <LinearGradientBrush x:Key="NormalBorderBrush" EndPoint="0,1" StartPoint="0,0">
-        <GradientStop Color="#CCC" Offset="0.0"/>
-        <GradientStop Color="#444" Offset="1.0"/>
-    </LinearGradientBrush>
+    <SolidColorBrush x:Key="NormalBorderBrush" Color="#DEE2E6"/>
 
     <SolidColorBrush x:Key="AlmostInvisibleBackgroundBrush" Color="#01FFFFFF"/>
 

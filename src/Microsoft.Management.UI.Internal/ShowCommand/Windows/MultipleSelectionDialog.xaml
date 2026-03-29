@@ -9,7 +9,9 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:default="clr-namespace:"
+             xmlns:sc="clr-namespace:Microsoft.Management.UI.Internal"
              mc:Ignorable="d"
+             FlowDirection="{x:Static sc:UICultureResources.FlowDirection}"
              Title="MemberType" Height="200" Width="404" WindowStartupLocation="CenterScreen">
     <Grid>
         <Grid.RowDefinitions>

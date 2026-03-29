@@ -10,6 +10,7 @@
         xmlns:default="clr-namespace:"
         xmlns:sc="clr-namespace:Microsoft.Management.UI.Internal"
         MinWidth="300" MinHeight="300"
+        FlowDirection="{x:Static sc:UICultureResources.FlowDirection}"
         Title="{Binding Name}" Width="380" Height="450">
     <Grid Margin="3" x:Name="MainGrid">
         <Grid.RowDefinitions>
